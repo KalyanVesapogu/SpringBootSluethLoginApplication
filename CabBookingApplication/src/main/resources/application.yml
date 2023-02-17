@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/carbookingapp2?allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true
+    password: root
+    username: root
+    driver-class-name: "com.mysql.cj.jdbc.Driver"
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+server:
+  port: 7292      
+   
